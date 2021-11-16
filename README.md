@@ -1,4 +1,7 @@
 # welcome
 welcome people app made by students from Apple Developer Academy
 
+
 Francesco Amirante
+
+Galina Aleksandrova
