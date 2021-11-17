@@ -9,14 +9,14 @@ import SwiftUI
 
 struct rectangle: View {
     var body: some View {
-        LazyHStack {
+//        LazyHStack {
         Rectangle()
             .frame(width: 183, height: 183, alignment: .leading)
-            Rectangle()
-                .frame(width: 183, height: 183, alignment: .leading)
+//            Rectangle()
+//                .frame(width: 183, height: 183, alignment: .leading)
             
             
-        }
+        //}
             
     }
 }
