@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4928FD2A274569CC00DB6E24 /* popoverSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928FD29274569CC00DB6E24 /* popoverSettingsPage.swift */; };
 		5C2879C82743F482006E0F18 /* popoverOnboardingQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2879C72743F482006E0F18 /* popoverOnboardingQuestions.swift */; };
 		5CB793D22742AE6300D844A8 /* WelcomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB793D12742AE6300D844A8 /* WelcomeApp.swift */; };
 		5CB793D62742AE6500D844A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB793D52742AE6500D844A8 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4928FD29274569CC00DB6E24 /* popoverSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popoverSettingsPage.swift; sourceTree = "<group>"; };
 		5C2879C72743F482006E0F18 /* popoverOnboardingQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popoverOnboardingQuestions.swift; sourceTree = "<group>"; };
 		5CB793CE2742AE6300D844A8 /* WelcomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WelcomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB793D12742AE6300D844A8 /* WelcomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeApp.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				5CB793E72742C55D00D844A8 /* memoryScreen.swift */,
 				5CB793E12742BD3700D844A8 /* onboardingScreen.swift */,
 				5C2879C72743F482006E0F18 /* popoverOnboardingQuestions.swift */,
+				4928FD29274569CC00DB6E24 /* popoverSettingsPage.swift */,
 				5CB793DF2742B61900D844A8 /* customButton.swift */,
 				5CB793D52742AE6500D844A8 /* Assets.xcassets */,
 				5CB793D72742AE6500D844A8 /* Preview Content */,
@@ -161,6 +164,7 @@
 				5CB793E22742BD3700D844A8 /* onboardingScreen.swift in Sources */,
 				5CB793E02742B61900D844A8 /* customButton.swift in Sources */,
 				5CB793E82742C55D00D844A8 /* memoryScreen.swift in Sources */,
+				4928FD2A274569CC00DB6E24 /* popoverSettingsPage.swift in Sources */,
 				5C2879C82743F482006E0F18 /* popoverOnboardingQuestions.swift in Sources */,
 				5CB793E62742C54C00D844A8 /* findScreen.swift in Sources */,
 				5CB793EA2743A95400D844A8 /* NavigationBar.swift in Sources */,
