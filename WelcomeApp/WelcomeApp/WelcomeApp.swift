@@ -11,8 +11,8 @@ import SwiftUI
 struct WelcomeApp: App {
     var body: some Scene {
         WindowGroup {
-           // TabbedView()//put a tab bar
-            onboardingScreen()
+           TabbedView()//put a tab bar
+            //onboardingScreen()
         }
     }
 }

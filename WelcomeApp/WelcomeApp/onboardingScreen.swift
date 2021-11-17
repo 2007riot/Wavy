@@ -73,9 +73,7 @@ struct onboardingScreen: View {
  
         }
         .popover(isPresented: $showingPopover) {
-            Text("Your content here")
-                .font(.headline)
-                .padding()
+            popoverOnboardingQuestions()
         }
     }
 
