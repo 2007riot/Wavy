@@ -25,7 +25,7 @@ struct NavigationBar: View {
 
         
             }
-            //            .navigationBarTitleDisplayMode(.inline)
+            //            .navigationBarTitleDisplayMode(.mul)
             
             
             
