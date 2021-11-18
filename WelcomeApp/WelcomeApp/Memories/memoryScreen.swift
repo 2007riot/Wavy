@@ -17,16 +17,6 @@ struct memoryScreen: View {
             }
             .navigationTitle("Memories")
             
-           
-//            .navigationBarTitleDisplayMode(.inline)
-        }
-        
-        ScrollView {
-            LazyVStack (alignment: .leading) {
-                rectangle()
-                    
-            }
-        }
         
         
         
@@ -36,6 +26,10 @@ struct memoryScreen: View {
 
 struct memoryScreen_Previews: PreviewProvider {
     static var previews: some View {
-        memoryScreen()
+        Group {
+            memoryScreen()
+            memoryScreen()
+        }
     }
+}
 }

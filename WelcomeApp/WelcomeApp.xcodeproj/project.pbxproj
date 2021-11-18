@@ -16,10 +16,13 @@
 		5CB793E02742B61900D844A8 /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB793DF2742B61900D844A8 /* customButton.swift */; };
 		5CB793E22742BD3700D844A8 /* onboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB793E12742BD3700D844A8 /* onboardingScreen.swift */; };
 		5CB793E42742C0F400D844A8 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB793E32742C0F400D844A8 /* TabbedView.swift */; };
-		5CB793E62742C54C00D844A8 /* findScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB793E52742C54C00D844A8 /* findScreen.swift */; };
 		5CB793E82742C55D00D844A8 /* memoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB793E72742C55D00D844A8 /* memoryScreen.swift */; };
 		5CB793EA2743A95400D844A8 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB793E92743A95400D844A8 /* NavigationBar.swift */; };
 		5CB793EC2743BFF600D844A8 /* Button2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB793EB2743BFF600D844A8 /* Button2.swift */; };
+		E9B64E4527465B0E00490359 /* NavigationTitleFindScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B64E4427465B0E00490359 /* NavigationTitleFindScreen.swift */; };
+		E9B64E4A2746654700490359 /* FindScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B64E492746654700490359 /* FindScreen.swift */; };
+		E9B64E4C2746656800490359 /* BackgroundFindScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B64E4B2746656800490359 /* BackgroundFindScreen.swift */; };
+		E9B64E5327466B3200490359 /* UserIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B64E5227466B3200490359 /* UserIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +36,13 @@
 		5CB793DF2742B61900D844A8 /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
 		5CB793E12742BD3700D844A8 /* onboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingScreen.swift; sourceTree = "<group>"; };
 		5CB793E32742C0F400D844A8 /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
-		5CB793E52742C54C00D844A8 /* findScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findScreen.swift; sourceTree = "<group>"; };
 		5CB793E72742C55D00D844A8 /* memoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoryScreen.swift; sourceTree = "<group>"; };
 		5CB793E92743A95400D844A8 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		5CB793EB2743BFF600D844A8 /* Button2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button2.swift; sourceTree = "<group>"; };
+		E9B64E4427465B0E00490359 /* NavigationTitleFindScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleFindScreen.swift; sourceTree = "<group>"; };
+		E9B64E492746654700490359 /* FindScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindScreen.swift; sourceTree = "<group>"; };
+		E9B64E4B2746656800490359 /* BackgroundFindScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFindScreen.swift; sourceTree = "<group>"; };
+		E9B64E5227466B3200490359 /* UserIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,16 +85,14 @@
 		5CB793D02742AE6300D844A8 /* WelcomeApp */ = {
 			isa = PBXGroup;
 			children = (
-				E99DD7C1274567900075F7A3 /* Find Screen */,
 				5CB793D12742AE6300D844A8 /* WelcomeApp.swift */,
-				5CB793E32742C0F400D844A8 /* TabbedView.swift */,
+				E9B64E4327465A9500490359 /* Onboarding */,
+				E918B6732745B4C2001AAA02 /* findscreens */,
 				5C53462D274554BF001093C1 /* Memories */,
 				5CB793EB2743BFF600D844A8 /* Button2.swift */,
-				5CB793E92743A95400D844A8 /* NavigationBar.swift */,
-				5CB793E12742BD3700D844A8 /* onboardingScreen.swift */,
-				5C2879C72743F482006E0F18 /* popoverOnboardingQuestions.swift */,
 				5CB793DF2742B61900D844A8 /* customButton.swift */,
 				5CB793D52742AE6500D844A8 /* Assets.xcassets */,
+				E9B64E4627465B5C00490359 /* General components */,
 				5CB793D72742AE6500D844A8 /* Preview Content */,
 			);
 			path = WelcomeApp;
@@ -102,12 +106,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E99DD7C1274567900075F7A3 /* Find Screen */ = {
+		E918B6732745B4C2001AAA02 /* findscreens */ = {
 			isa = PBXGroup;
 			children = (
-				5CB793E52742C54C00D844A8 /* findScreen.swift */,
+				E9B64E4427465B0E00490359 /* NavigationTitleFindScreen.swift */,
+				E9B64E492746654700490359 /* FindScreen.swift */,
+				E9B64E5227466B3200490359 /* UserIcon.swift */,
+				E9B64E4B2746656800490359 /* BackgroundFindScreen.swift */,
 			);
-			path = "Find Screen";
+			path = findscreens;
+			sourceTree = "<group>";
+		};
+		E9B64E4327465A9500490359 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				5CB793E12742BD3700D844A8 /* onboardingScreen.swift */,
+				5C2879C72743F482006E0F18 /* popoverOnboardingQuestions.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E9B64E4627465B5C00490359 /* General components */ = {
+			isa = PBXGroup;
+			children = (
+				5CB793E32742C0F400D844A8 /* TabbedView.swift */,
+				5CB793E92743A95400D844A8 /* NavigationBar.swift */,
+			);
+			path = "General components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,15 +206,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C53463127455E20001093C1 /* rectangle.swift in Sources */,
+				E9B64E5327466B3200490359 /* UserIcon.swift in Sources */,
 				5CB793E22742BD3700D844A8 /* onboardingScreen.swift in Sources */,
 				5CB793E02742B61900D844A8 /* customButton.swift in Sources */,
 				5CB793E82742C55D00D844A8 /* memoryScreen.swift in Sources */,
+				E9B64E4A2746654700490359 /* FindScreen.swift in Sources */,
+				E9B64E4C2746656800490359 /* BackgroundFindScreen.swift in Sources */,
 				5C2879C82743F482006E0F18 /* popoverOnboardingQuestions.swift in Sources */,
-				5CB793E62742C54C00D844A8 /* findScreen.swift in Sources */,
 				5CB793EA2743A95400D844A8 /* NavigationBar.swift in Sources */,
 				5CB793E42742C0F400D844A8 /* TabbedView.swift in Sources */,
 				5CB793EC2743BFF600D844A8 /* Button2.swift in Sources */,
 				5C53462F27455871001093C1 /* Photos.swift in Sources */,
+				E9B64E4527465B0E00490359 /* NavigationTitleFindScreen.swift in Sources */,
 				5CB793D22742AE6300D844A8 /* WelcomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
