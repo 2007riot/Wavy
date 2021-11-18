@@ -13,6 +13,7 @@ struct WelcomeApp: App {
         WindowGroup {
            TabbedView()//put a tab bar
             //onboardingScreen()
+//            twoRectangles(photo: Photo(photoName: "picture1", titles: "some photo"))
         }
     }
 }
