@@ -111,9 +111,7 @@
 				5CB793D12742AE6300D844A8 /* WelcomeApp.swift */,
 				5C53462D274554BF001093C1 /* Memories */,
 				5CB793EB2743BFF600D844A8 /* Button2.swift */,
-				E90AF6362746AD4600D8D63C /* TabbedView.swift */,
-				5CB793DF2742B61900D844A8 /* customButton.swift */,
-				5CB793D52742AE6500D844A8 /* Assets.xcassets */,
+				E90AF63B2746B3D800D8D63C /* COMMON COMPONENTS */,
 				5CB793D72742AE6500D844A8 /* Preview Content */,
 			);
 			path = WelcomeApp;
@@ -122,6 +120,7 @@
 		5CB793D72742AE6500D844A8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				5CB793DF2742B61900D844A8 /* customButton.swift */,
 				5CB793D82742AE6500D844A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -133,6 +132,15 @@
 				E90AF6392746B1E300D8D63C /* FindScreen.swift */,
 			);
 			path = FindScreen;
+			sourceTree = "<group>";
+		};
+		E90AF63B2746B3D800D8D63C /* COMMON COMPONENTS */ = {
+			isa = PBXGroup;
+			children = (
+				E90AF6362746AD4600D8D63C /* TabbedView.swift */,
+				5CB793D52742AE6500D844A8 /* Assets.xcassets */,
+			);
+			path = "COMMON COMPONENTS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
