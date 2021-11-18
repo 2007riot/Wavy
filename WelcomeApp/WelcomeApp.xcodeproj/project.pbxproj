@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4928FD2A274569CC00DB6E24 /* popoverSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928FD29274569CC00DB6E24 /* popoverSettingsPage.swift */; };
 		5C53462F27455871001093C1 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53462E27455871001093C1 /* Photos.swift */; };
 		5C534633274597CF001093C1 /* rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C534632274597CF001093C1 /* rectangle.swift */; };
 		5C5346372745A9D0001093C1 /* camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5346362745A9D0001093C1 /* camera.swift */; };
@@ -26,7 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4928FD29274569CC00DB6E24 /* popoverSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popoverSettingsPage.swift; sourceTree = "<group>"; };
 		5C53462E27455871001093C1 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		5C534632274597CF001093C1 /* rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rectangle.swift; sourceTree = "<group>"; };
 		5C5346362745A9D0001093C1 /* camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera.swift; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 				5CB793D12742AE6300D844A8 /* WelcomeApp.swift */,
 				5C53462D274554BF001093C1 /* Memories */,
 				5CB793EB2743BFF600D844A8 /* Button2.swift */,
-				4928FD29274569CC00DB6E24 /* popoverSettingsPage.swift */,
 				5CB793DF2742B61900D844A8 /* customButton.swift */,
 				5CB793D52742AE6500D844A8 /* Assets.xcassets */,
 				5CB793D72742AE6500D844A8 /* Preview Content */,
@@ -205,7 +202,6 @@
 				5C53463B27465CA8001093C1 /* plusButton.swift in Sources */,
 				E90AF6372746AD4600D8D63C /* TabbedView.swift in Sources */,
 				5CB793E82742C55D00D844A8 /* memoryScreen.swift in Sources */,
-				4928FD2A274569CC00DB6E24 /* popoverSettingsPage.swift in Sources */,
 				5CB793EC2743BFF600D844A8 /* Button2.swift in Sources */,
 				5C5346372745A9D0001093C1 /* camera.swift in Sources */,
 				5C53463F27466332001093C1 /* PhotoStore.swift in Sources */,
