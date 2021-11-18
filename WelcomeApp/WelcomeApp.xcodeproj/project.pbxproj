@@ -77,7 +77,6 @@
 		5C5346412746696D001093C1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E90AF6362746AD4600D8D63C /* TabbedView.swift */,
 				5CB793E72742C55D00D844A8 /* memoryScreen.swift */,
 				5C534644274673BA001093C1 /* PhotoGridView.swift */,
 				5C53464227466991001093C1 /* profileButton.swift */,
@@ -112,6 +111,7 @@
 				5CB793D12742AE6300D844A8 /* WelcomeApp.swift */,
 				5C53462D274554BF001093C1 /* Memories */,
 				5CB793EB2743BFF600D844A8 /* Button2.swift */,
+				E90AF6362746AD4600D8D63C /* TabbedView.swift */,
 				5CB793DF2742B61900D844A8 /* customButton.swift */,
 				5CB793D52742AE6500D844A8 /* Assets.xcassets */,
 				5CB793D72742AE6500D844A8 /* Preview Content */,
