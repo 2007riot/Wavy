@@ -9,11 +9,9 @@ import Foundation
 
 struct Photo:Identifiable {
     
-    var id = UUID()
-    
-    
-    let photoName: String
-    let titles: String
+    let id = UUID()
+    var photoName: String
+    var titles: String
 }
 
 

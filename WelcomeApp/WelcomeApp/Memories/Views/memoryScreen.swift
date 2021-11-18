@@ -8,21 +8,23 @@
 import SwiftUI
 
 struct memoryScreen: View {
+    @StateObject var photoStore = PhotoStore()
+    
     var body: some View {
         NavigationView {
             
             ScrollView {
                 LazyVStack (alignment: .center) {
-                    ForEach(rectangle())
-                    rectangle()
-                    
-                    
-                }
+                    PhotoGridView()              }
             }
             .navigationTitle("Memories")
             .navigationBarItems(
                 leading: plusButton(),
-                trailing: profileButton()
+                trailing: NavigationLink(destination: {
+                    Text("Here setting page")
+                }, label: {
+                    profileButton()
+                })
             )
         }
         

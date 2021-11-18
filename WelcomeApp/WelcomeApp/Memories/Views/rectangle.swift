@@ -8,22 +8,23 @@
 import SwiftUI
 
 struct rectangle: View {
+    var photo: Photo
+    
     var body: some View {
-        VStack(alignment: .leading) {
-            Image(photo1.photoName)
-            .frame(width: 183, height: 183, alignment: .leading)
-            Text(photo1.titles)
-//            Rectangle()
-//                .frame(width: 183, height: 183, alignment: .leading)
-            
+        NavigationLink(destination: Text("Here photo view that Emmanuele does")) {
+            VStack(alignment: .leading) {
+                Image(photo.photoName)
+                    .frame(width: 183, height: 183, alignment: .leading)
+                Text(photo.titles)
+                    .foregroundColor(.black)
+            }
             
         }
-            
     }
 }
 
 struct rectangle_Previews: PreviewProvider {
     static var previews: some View {
-        rectangle()
+        rectangle(photo: Photo(photoName: "picture1", titles: "some photo"))
     }
 }

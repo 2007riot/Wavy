@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct PhotoGridView: View {
+    @StateObject var photoStore = PhotoStore()
+    var columns = [
+    GridItem(spacing: 0),
+    GridItem(spacing: 0)
+    ]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            LazyVGrid(columns: columns) {
+                ForEach(photoStore.photos, id: \.id) {
+                    photo in rectangle(photo: photo)
+                }
+            }
+        }
     }
 }
 
