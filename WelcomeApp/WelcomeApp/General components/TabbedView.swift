@@ -10,15 +10,15 @@ import SwiftUI
 struct TabbedView: View {
     var body: some View {
         TabView {
-            findScreen()
+            FindScreen()
                 .tabItem {
+                    Image(systemName: "1.square.fill")
                     Text("Find")
-                    Image(systemName: "person.3.fill")
                 }
             memoryScreen()
                 .tabItem {
+                    Image(systemName: "2.square.fill")
                     Text("Memories")
-                    Image(systemName: "photo.on.rectangle.angled")
                 }
             
            
