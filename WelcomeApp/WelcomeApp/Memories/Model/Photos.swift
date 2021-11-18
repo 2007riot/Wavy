@@ -6,6 +6,14 @@
 //
 
 import Foundation
-struct Photos {
+
+struct Photo:Identifiable {
     
+    var id = UUID()
+    
+    
+    let photoName: String
+    let titles: String
 }
+
+
