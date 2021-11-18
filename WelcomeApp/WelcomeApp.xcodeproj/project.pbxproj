@@ -52,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		498747BC2745ABCD00359A55 /* Setting Page */ = {
+			isa = PBXGroup;
+			children = (
+				4928FD29274569CC00DB6E24 /* popoverSettingsPage.swift */,
+			);
+			path = "Setting Page";
+			sourceTree = "<group>";
+		};
 		5C53462D274554BF001093C1 /* Memories */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +97,7 @@
 				5CB793E92743A95400D844A8 /* NavigationBar.swift */,
 				5CB793E12742BD3700D844A8 /* onboardingScreen.swift */,
 				5C2879C72743F482006E0F18 /* popoverOnboardingQuestions.swift */,
-				4928FD29274569CC00DB6E24 /* popoverSettingsPage.swift */,
+				498747BC2745ABCD00359A55 /* Setting Page */,
 				5CB793DF2742B61900D844A8 /* customButton.swift */,
 				5CB793D52742AE6500D844A8 /* Assets.xcassets */,
 				5CB793D72742AE6500D844A8 /* Preview Content */,
