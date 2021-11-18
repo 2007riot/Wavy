@@ -27,7 +27,7 @@ struct memoryScreen: View {
                 })
             )
         }
-        
+        ///
     }
     
     
