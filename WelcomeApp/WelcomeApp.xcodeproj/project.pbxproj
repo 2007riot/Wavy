@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490880D02747E16E0032BED8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490880CF2747E16E0032BED8 /* SettingsView.swift */; };
+		490880D22747E28F0032BED8 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490880D12747E28F0032BED8 /* EditProfileView.swift */; };
+		4938DE34274B039F00A219FA /* LanguagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4938DE33274B039F00A219FA /* LanguagesView.swift */; };
 		5C53462F27455871001093C1 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53462E27455871001093C1 /* Photos.swift */; };
 		5C534633274597CF001093C1 /* rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C534632274597CF001093C1 /* rectangle.swift */; };
 		5C5346372745A9D0001093C1 /* camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5346362745A9D0001093C1 /* camera.swift */; };
@@ -26,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		490880CF2747E16E0032BED8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		490880D12747E28F0032BED8 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		4938DE33274B039F00A219FA /* LanguagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesView.swift; sourceTree = "<group>"; };
 		5C53462E27455871001093C1 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		5C534632274597CF001093C1 /* rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rectangle.swift; sourceTree = "<group>"; };
 		5C5346362745A9D0001093C1 /* camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera.swift; sourceTree = "<group>"; };
@@ -56,6 +62,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4938D3D52746BB7800A5A12B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				494863AA274704B6001C55AA /* Settings Views */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		494863AA274704B6001C55AA /* Settings Views */ = {
+			isa = PBXGroup;
+			children = (
+				490880CF2747E16E0032BED8 /* SettingsView.swift */,
+				490880D12747E28F0032BED8 /* EditProfileView.swift */,
+				4938DE33274B039F00A219FA /* LanguagesView.swift */,
+			);
+			path = "Settings Views";
+			sourceTree = "<group>";
+		};
 		5C53462D274554BF001093C1 /* Memories */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +133,7 @@
 			children = (
 				E90AF6382746B08100D8D63C /* FindScreen */,
 				5CB793D12742AE6300D844A8 /* WelcomeApp.swift */,
+				4938D3D52746BB7800A5A12B /* Settings */,
 				5C53462D274554BF001093C1 /* Memories */,
 				5CB793EB2743BFF600D844A8 /* Button2.swift */,
 				E90AF63B2746B3D800D8D63C /* COMMON COMPONENTS */,
@@ -213,7 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4938DE34274B039F00A219FA /* LanguagesView.swift in Sources */,
+				490880D02747E16E0032BED8 /* SettingsView.swift in Sources */,
 				5C534633274597CF001093C1 /* rectangle.swift in Sources */,
+				490880D22747E28F0032BED8 /* EditProfileView.swift in Sources */,
 				5C53464327466991001093C1 /* profileButton.swift in Sources */,
 				E90AF63A2746B1E300D8D63C /* FindScreen.swift in Sources */,
 				5C534645274673BA001093C1 /* PhotoGridView.swift in Sources */,
