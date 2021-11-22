@@ -9,16 +9,19 @@ import SwiftUI
 
 struct photoCaptureView: View {
     @Binding var showImagePicker: Bool
-    @Binding var image: Image?
+    @Binding public var imageMade: Image?
     @State private var sourceType: UIImagePickerController.SourceType = .camera
     
     var body: some View {
-        ImagePicker(isShown: $showImagePicker, image: $image, sourceType: self.sourceType )
+        ImagePicker(isShown: $showImagePicker, image: $imageMade, sourceType: self.sourceType )
+        
+        //Image(uiImage: (imageMade as! UIImage))
     }
 }
 
 struct photoCaptureView_Previews: PreviewProvider {
     static var previews: some View {
-        photoCaptureView(showImagePicker: .constant(false), image: .constant(Image("picture1")))
+        photoCaptureView(showImagePicker: .constant(false), imageMade: .constant(Image("picture1")))
     }
 }
+
