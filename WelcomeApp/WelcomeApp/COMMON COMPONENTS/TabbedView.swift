@@ -11,7 +11,7 @@ struct TabbedView: View {
     var body: some View {
         
         TabView {
-            FindScreen()
+            NavigationViewFindScreen()
                 .tabItem {
                     Text("Find")
                     Image(systemName: "person.3.fill")

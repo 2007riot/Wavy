@@ -10,6 +10,7 @@ import SwiftUI
 struct memoryScreen: View {
     @StateObject var photoStore = PhotoStore()
     
+    
     var body: some View {
         NavigationView {
             
@@ -27,7 +28,6 @@ struct memoryScreen: View {
                 })
             )
         }
-        ///
     }
     
     
