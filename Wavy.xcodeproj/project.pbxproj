@@ -71,7 +71,7 @@
 		5C668D0E274BDAE500FF5BC5 /* photoCaptureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoCaptureView.swift; sourceTree = "<group>"; };
 		5C668D12274BDAF700FF5BC5 /* customAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customAlert.swift; sourceTree = "<group>"; };
 		5C668D15274BDB2E00FF5BC5 /* PhotoGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
-		5CB793CE2742AE6300D844A8 /* WelcomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WelcomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB793CE2742AE6300D844A8 /* Wavy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wavy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB793D12742AE6300D844A8 /* WelcomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeApp.swift; sourceTree = "<group>"; };
 		5CB793D52742AE6500D844A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB793D82742AE6500D844A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		5CB793CF2742AE6300D844A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5CB793CE2742AE6300D844A8 /* WelcomeApp.app */,
+				5CB793CE2742AE6300D844A8 /* Wavy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5CB793CD2742AE6300D844A8 /* WelcomeApp */ = {
+		5CB793CD2742AE6300D844A8 /* Wavy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CB793DC2742AE6500D844A8 /* Build configuration list for PBXNativeTarget "WelcomeApp" */;
+			buildConfigurationList = 5CB793DC2742AE6500D844A8 /* Build configuration list for PBXNativeTarget "Wavy" */;
 			buildPhases = (
 				5CB793CA2742AE6300D844A8 /* Sources */,
 				5CB793CB2742AE6300D844A8 /* Frameworks */,
@@ -244,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = WelcomeApp;
+			name = Wavy;
 			productName = WelcomeApp;
-			productReference = 5CB793CE2742AE6300D844A8 /* WelcomeApp.app */;
+			productReference = 5CB793CE2742AE6300D844A8 /* Wavy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5CB793C92742AE6300D844A8 /* Build configuration list for PBXProject "WelcomeApp" */;
+			buildConfigurationList = 5CB793C92742AE6300D844A8 /* Build configuration list for PBXProject "Wavy" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -277,7 +277,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5CB793CD2742AE6300D844A8 /* WelcomeApp */,
+				5CB793CD2742AE6300D844A8 /* Wavy */,
 			);
 		};
 /* End PBXProject section */
@@ -467,6 +467,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -476,7 +477,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = galina.WelcomeApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Wavy;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -497,6 +498,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -506,7 +508,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = galina.WelcomeApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Wavy;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5CB793C92742AE6300D844A8 /* Build configuration list for PBXProject "WelcomeApp" */ = {
+		5CB793C92742AE6300D844A8 /* Build configuration list for PBXProject "Wavy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CB793DA2742AE6500D844A8 /* Debug */,
@@ -525,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CB793DC2742AE6500D844A8 /* Build configuration list for PBXNativeTarget "WelcomeApp" */ = {
+		5CB793DC2742AE6500D844A8 /* Build configuration list for PBXNativeTarget "Wavy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CB793DD2742AE6500D844A8 /* Debug */,
