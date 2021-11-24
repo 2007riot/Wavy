@@ -8,13 +8,9 @@
 import SwiftUI
 
 struct NewImage: View {
-//    @Binding var showImagePicker: Bool
-//    @Binding public var imageMade: Image?
-//    @State private var sourceType: UIImagePickerController.SourceType = .camera
-    //var imagePicker = ImagePicker(isShown: showImagePicker, image: $imageMade)
-    //ar body: some View {
+
     var body: some View {
-        Image("picture1")
+        Image(image)
       
         
     }

@@ -11,7 +11,7 @@ struct rectangle: View {
     var photo: Photo
     
     var body: some View {
-        NavigationLink(destination: Text("Here photo view that Emmanuele does")) {
+        NavigationLink(destination: Text("Here photo view")) {
             VStack(alignment: .leading) {
                 Image(photo.photoName)
                     .frame(width: 183, height: 183, alignment: .leading)

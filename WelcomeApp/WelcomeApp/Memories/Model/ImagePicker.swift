@@ -11,7 +11,7 @@ import SwiftUI
 class ImagePickerCoordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     @Binding var isShown: Bool
-    @Binding var image: Image?
+    @Binding public var image: Image?
     
     
     init(isShown: Binding<Bool>, image: Binding<Image?>) {
@@ -29,6 +29,7 @@ class ImagePickerCoordinator: NSObject, UINavigationControllerDelegate, UIImageP
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         //isShown = false
     }
+    
     
     
     
@@ -55,4 +56,7 @@ struct ImagePicker: UIViewControllerRepresentable {
         picker.delegate = context.coordinator
         return picker
     }
+    
+    
+    
 }

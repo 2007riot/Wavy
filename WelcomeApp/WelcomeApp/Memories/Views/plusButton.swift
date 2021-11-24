@@ -39,8 +39,6 @@ struct plusButton: View {
             )
         }
         
-
-        
                                 .alert(isPresented: $showingAlert) {
                                     Alert(
                                         title: Text("New album"),

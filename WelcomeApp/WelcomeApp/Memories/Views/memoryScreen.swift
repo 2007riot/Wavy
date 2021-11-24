@@ -22,7 +22,8 @@ struct memoryScreen: View {
             .navigationBarItems(
                 leading: plusButton(),
                 trailing: NavigationLink(destination: {
-                    Text("Here setting page")
+                    SettingsView()
+                    //Text("Here setting page")
                 }, label: {
                     profileButton()
                 })

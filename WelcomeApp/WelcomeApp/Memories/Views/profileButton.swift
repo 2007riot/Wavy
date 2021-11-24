@@ -3,23 +3,44 @@
 //  WelcomeApp
 //
 //  Created by Galina Aleksandrova on 18/11/21.
-//
+//NavigationLink("settings", destination: SettingsView())
 
 import SwiftUI
 
 struct profileButton: View {
+    @State private var isShowingSettingPage = false
     var body: some View {
+        
 
-            Button {
-                print("go to profile was tapped")
-                //here supposed to go to settings screen
-                
-            } label: {
-                Image(systemName: "person.crop.circle")
-                    .font(.system(size: 24))
-                
-            }
+        NavigationLink(destination: SettingsView(), isActive: $isShowingSettingPage) { SettingsView() }
+                Button {
+                    print("go to profile was tapped")
+                    self.isShowingSettingPage.toggle()
+                    
+                    //here supposed to go to settings screen
+                    
+                } label: {
+                    Image(systemName: "person.crop.circle")
+                        .font(.system(size: 24))
+                    
+                }
+//        NavigationLink {
+//            SettingsView()
+//        } label: {
+//            isShowingSettingPage.toggle()
+//        }
+
+
+//            }
+//
+//        }
+
+            
+        
+        
         }
+    
+    
       
     
    

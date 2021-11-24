@@ -15,7 +15,8 @@ struct photoCaptureView: View {
     var body: some View {
         ImagePicker(isShown: $showImagePicker, image: $imageMade, sourceType: self.sourceType )
         
-        //Image(uiImage: (imageMade as! UIImage))
+        
+        Image(imageMade)
     }
 }
 
